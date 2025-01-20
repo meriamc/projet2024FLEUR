@@ -1,0 +1,53 @@
+.container {
+    flex-direction: column;
+  }
+  .navbar {
+    background-color:rgb(255, 255, 255);
+    position: sticky;
+    z-index: 60;
+  }
+  
+  .logo {
+    width: 900px;
+    height: 70px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    margin: right 0;;
+    background-color:white;
+    margin-top: 0cm;
+  }
+  
+  .menu li {
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  .menu li a:hover{
+    color: rgb(182, 96, 122);
+    transition: linear;
+  }
+  
+  .menu li.dropdown {
+    position: relative;
+  }
+  .logo{
+    width:500px;}
+  .main{
+    width: 100%;
+    height: 100%;
+  }
+
+  .user-info {
+    margin-bottom: 10px;
+}
+
+.user-info strong {
+    margin-right: 10px;
+}
